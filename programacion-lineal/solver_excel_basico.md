@@ -126,16 +126,19 @@ Haz clic en **Resolver** para obtener la solución óptima.
 
 ## Paso 10: Analizar resultados
 
-> Observa los valores obtenidos para las variables de decisión.
-> Analiza el valor óptimo de la función objetivo.
-> Confirma que Solver encontró una solución válida.
+Observa los valores obtenidos para las variables de decisión.
+<br>
+Analiza el valor óptimo de la función objetivo.
+<br>
+Confirma que Solver encontró una solución válida.
+<br>
 
 ![Resultado Solver](imagenes/solver/ejemplo/18_resultado_solver.png)
 
 
 
 > [!NOTE]
-> Las variables de decisión pueden inicializarse en cero o dejarse vacias, ya que Solver ajusta automáticamente sus valores para encontrar la solución óptima.
+> Las variables de decisión pueden inicializarse en cero o dejarse vacías, ya que Solver ajusta automáticamente sus valores para encontrar la solución óptima.
 
 > [!IMPORTANT]
 > Este procedimiento permite resolver modelos de programación lineal de forma eficiente utilizando herramientas computacionales.
