@@ -53,7 +53,7 @@ Una vez activado, podrás encontrar Solver en:
 
 **Pestaña Datos → Solver**
 
-![Solver en Excel](https://raw.githubusercontent.com/peter0226/computacion-matematica/main/programacion-lineal/imagenes/05_solver_datos.png)
+![Solver en Excel](https://raw.githubusercontent.com/peter0226/computacion-matematica/main/programacion-lineal/imagenes/solver/05_solver_datos.png)
 
 
 > [!NOTE]
