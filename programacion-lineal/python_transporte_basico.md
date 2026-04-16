@@ -2,19 +2,51 @@
 
 En este ejemplo se muestra cómo resolver un modelo de transporte utilizando Python y la librería PuLP.
 
-
 ## Modelo
 
 Minimizar:
 
-Costo total de transporte
+Z = 24x11 + 30x12 + 30x13 + 32x21 + 26x22 + 25x23 + 31x31 + 32x32 + 31x33
 
 Sujeto a:
 
-- Restricciones de oferta
-- Restricciones de demanda
-- No negatividad
+### Restricciones de oferta
 
+x11 + x12 + x13 = 200  
+x21 + x22 + x23 = 250  
+x31 + x32 + x33 = 450  
+
+### Restricciones de demanda
+
+x11 + x21 + x31 = 150  
+x12 + x22 + x32 = 350  
+x13 + x23 + x33 = 400  
+
+### Restricciones de no negatividad
+
+xij ≥ 0
+
+## Datos del problema
+
+### Costos de transporte por unidad
+
+| Origen / Destino | Ciudad 1 | Ciudad 2 | Ciudad 3 |
+|------------------|----------|----------|----------|
+| Granja 1         | 24       | 30       | 30       |
+| Granja 2         | 32       | 26       | 25       |
+| Granja 3         | 31       | 32       | 31       |
+
+### Oferta
+
+- Granja 1: 200
+- Granja 2: 250
+- Granja 3: 450
+
+### Demanda
+
+- Ciudad 1: 150
+- Ciudad 2: 350
+- Ciudad 3: 400
 
 ## Paso 1: Instalar la librería
 
